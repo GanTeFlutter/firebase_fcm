@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(flutter pub get:*)",
+      "Bash(dart run build_runner build:*)",
+      "Bash(flutter analyze:*)",
+      "Bash(dart run flutter_launcher_icons:*)",
+      "Bash(ls:*)",
+      "Bash(findstr:*)",
+      "Bash(copy \"assets\\\\2.png\" \"android\\\\app\\\\src\\\\main\\\\res\\\\drawable-mdpi\\\\ic_notification.png\")",
+      "Bash(copy \"assets\\\\2.png\" \"android\\\\app\\\\src\\\\main\\\\res\\\\drawable-hdpi\\\\ic_notification.png\")",
+      "Bash(copy \"assets\\\\2.png\" \"android\\\\app\\\\src\\\\main\\\\res\\\\drawable-xhdpi\\\\ic_notification.png\")",
+      "Bash(copy \"assets\\\\2.png\" \"android\\\\app\\\\src\\\\main\\\\res\\\\drawable-xxhdpi\\\\ic_notification.png\")",
+      "Bash(copy \"assets\\\\2.png\" \"android\\\\app\\\\src\\\\main\\\\res\\\\drawable-xxxhdpi\\\\ic_notification.png\")",
+      "Bash(find:*)"
+    ]
+  }
+}
